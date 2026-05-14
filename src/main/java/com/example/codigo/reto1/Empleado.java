@@ -1,4 +1,4 @@
-package com.example.codigo;
+package com.example.codigo.reto1;
 
 public abstract class Empleado {
 
