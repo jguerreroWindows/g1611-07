@@ -1,5 +1,6 @@
 package com.example.codigo;
 
+import com.example.codigo.record.Productorecord;
 import com.example.codigo.reto1.Desarrollador;
 import com.example.codigo.reto1.Empleado;
 import com.example.codigo.reto1.Gerente;
@@ -30,6 +31,11 @@ public class CodigooooApplication {
         System.out.println( "Total de la Factura : S/. " + factura.calcularTota());
         System.out.println( "Total de la Nomina : S/. " + nomina.calcularTota());
         System.out.println("****************** FIN RETO 2 **********************");
+
+        System.out.println("*****************************TEMA 07 : RECORDS*******************************");
+
+        Productorecord p1 = new Productorecord("Laptop",1500,5);
+        Productorecord p2 = new Productorecord("PC",3000,2);
 
 
     }
